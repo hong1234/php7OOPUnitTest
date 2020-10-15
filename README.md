@@ -5,6 +5,8 @@ git clone https://github.com/hong1234/php7OOPUnitTest.git
 
 cd php7OOPUnitTest
 
+composer install
+
 // unit tests
 
 ./vendor/bin/phpunit --bootstrap vendor/autoload.php tests
