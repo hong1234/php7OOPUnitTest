@@ -11,6 +11,10 @@ class Printer
         $this->printAbles[] = $item;
     }
 
+    public function getTop(){
+        return $this->printAbles[count($this->printAbles)-1];
+    }
+
     public function printAll(){
         foreach($this->printAbles as $item){
             $item->printMySelf();
