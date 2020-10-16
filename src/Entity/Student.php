@@ -29,5 +29,13 @@ class Student extends Person implements PrintAble
         echo $this->uni.'<br/>'.'<br/>';
     }
 
+    public function printMySelfOnConsole(){
+        echo 'I am a Student ---';echo "\n";
+        echo $this->name;echo "\n";
+        echo $this->age;echo "\n";
+        echo $this->email;echo "\n";
+        echo $this->uni;echo "\n"; echo "\n";
+    }
+
 }
 

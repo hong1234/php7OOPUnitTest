@@ -16,6 +16,12 @@ class Printer
             $item->printMySelf();
         }
     }
+
+    public function printAllOnConsole(){
+        foreach($this->printAbles as $item){
+            $item->printMySelfOnConsole();
+        }
+    }
 }
 
 

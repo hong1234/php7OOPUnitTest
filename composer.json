@@ -3,6 +3,7 @@
         "psr-4": { "Demo\\": "src/" }
     },
     "require": {
-        "phpunit/phpunit": "^9.1"
+        "phpunit/phpunit": "^9.1",
+        "symfony/console": "^5.1"
     }
 }

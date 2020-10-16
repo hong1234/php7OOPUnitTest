@@ -11,6 +11,10 @@ composer install
 
 ./vendor/bin/phpunit --bootstrap vendor/autoload.php tests
 
+// run console application
+
+php application.php app:show-list
+
 // run built-in server server
 
 php -S localhost:8000
