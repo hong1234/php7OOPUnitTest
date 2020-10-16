@@ -22,7 +22,7 @@ class Banker extends Person implements PrintAble
     }
 
     public function printMySelf(){
-        echo 'I am a Banker'.'<br/>';
+        echo '<b>I am a Banker</b>'.'<br/>';
         echo $this->name.'<br/>';
         echo $this->age.'<br/>';
         echo $this->email.'<br/>';

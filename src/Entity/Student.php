@@ -22,7 +22,7 @@ class Student extends Person implements PrintAble
     }
 
     public function printMySelf(){
-        echo 'I am a Student'.'<br/>';
+        echo '<b>I am a Student</b>'.'<br/>';
         echo $this->name.'<br/>';
         echo $this->age.'<br/>';
         echo $this->email.'<br/>';
