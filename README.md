@@ -11,6 +11,9 @@ composer install
 
 ./vendor/bin/phpunit --bootstrap vendor/autoload.php tests
 
+// on windows
+// "vendor/bin/phpunit" --bootstrap vendor/autoload.php tests
+
 // run console application
 
 php application.php app:show-list
